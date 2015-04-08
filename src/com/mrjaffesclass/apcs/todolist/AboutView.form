@@ -23,17 +23,17 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="2" attributes="0">
                   <Component id="titleText" alignment="2" min="-2" max="-2" attributes="0"/>
                   <Component id="useText" alignment="2" min="-2" max="-2" attributes="0"/>
-                  <Component id="schoolText" alignment="2" min="-2" max="-2" attributes="0"/>
                   <Component id="versionText" alignment="2" min="-2" max="-2" attributes="0"/>
                   <Component id="okBtn" alignment="2" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="46" max="32767" attributes="0"/>
+              <EmptySpace pref="74" max="32767" attributes="0"/>
           </Group>
+          <Component id="schoolText" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -46,8 +46,8 @@
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="useText" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="schoolText" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="schoolText" min="-2" pref="62" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="okBtn" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
@@ -70,13 +70,13 @@
     </Component>
     <Component class="javax.swing.JLabel" name="schoolText">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Patrick Henry High School"/>
+        <Property name="text" type="java.lang.String" value="   Antonio Grimes, Chris Linhardt, Carlos Pimentel"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="versionText">
       <Properties>
         <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="text" type="java.lang.String" value="Version 0.0"/>
+        <Property name="text" type="java.lang.String" value="Version 1.0"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="okBtn">
